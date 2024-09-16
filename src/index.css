@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overscroll-behavior: none;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.highlight {
+  background: url(https://s2.svgbox.net/pen-brushes.svg?ic=brush-10&color=bef263);
+}
+
+.circularGradient {
+  background: linear-gradient(90deg, #a9d9ff 20%, #ffffff 45%, #ffffff 55%, #a9d9ff 80%);
+  filter: blur(70px);
+}
+
+.gradientbackground {
+  background: linear-gradient(90deg, #0bceff 0%, #ff0048 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer {
+  background: linear-gradient(to right, 
+                              #E1859F 14.36%,
+                              #5BBAD2 86.23%);
+  background-blend-mode: multiply;
+  filter: blur(70px);
+}
+
