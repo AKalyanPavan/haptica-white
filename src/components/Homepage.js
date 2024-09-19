@@ -128,7 +128,7 @@ function Homepage() {
 	 					</div>
 					</div>
 					<div className="max-w-[1440px] mx-auto lg:text-[64px] sm:text-[48px] text-[25px] font-light text-left my-[150px]">Recent Work</div>
-					<div className="font-['Lexend'] max-w-[1440px]">
+					<div className="font-['Lexend'] max-w-[1440px] mx-auto">
 						<div className="flex">
 							<div>
 								<img className="" src={recentWork1} />
@@ -183,7 +183,7 @@ function Homepage() {
 					</div>
 					<div className="max-w-[1440px] mx-auto lg:text-[64px] sm:text-[48px] text-[25px] font-light text-right my-[150px]">Benefits of Working with Us</div>
 				</div>
-				<div className="grid min-[1400px]:grid-cols-4 min-[700px]:grid-cols-2 grid-cols-1 font-normal font-['Lexend'] text-left ">
+				<div className="max-w-[1440px] mx-auto grid min-[1400px]:grid-cols-4 min-[700px]:grid-cols-2 grid-cols-1 font-normal font-['Lexend'] text-left ">
 					<div className="pl-[40px] pr-[25px] py-[40px] border-[#EEEFF1] border-solid border-[1px]">
 						<div className="text-[24px] mb-[150px]">Seamless Collaboration</div>
 						<div className="text-[#7D7C86] text-[18px] leading-[28px] sm:min-w-[282px]">We work closely with you to understand your vision and goals.</div>
@@ -201,23 +201,27 @@ function Homepage() {
 						<div className="text-[#7D7C86] text-[18px] leading-[28px] sm:min-w-[282px]">We track key metrics to demonstrate the success of your product and marketing efforts.</div>
 					</div>
 				</div>
-				<div className="sm:pl-[40px] pl-[20px] mt-[130px] mb-[275px] text-left lg:text-[64px] sm:text-[48px] text-[25px] font-['Lexend_Deca'] font-light lg:leading-[80px] sm:leading-[60px] leading-[40px] max-w-[945px]">
-					Ready to stop chasing trends and <span className="gradientbackground">start creating</span> something truly remarkable?
-				</div>
-				<div className="sm:pl-[40px] pl-[20px] mt-[275px] flex sm:flex-row flex-col gap-[30px] items-center">
-					<div className="cursor-pointer font-normal text-[16px] font-['Lexend_Deca'] text-white bg-[#000000] rounded-[28px] px-[24px] py-[16px] w-fit">Get a Free Consultation</div>
-					<div className="gradientbackground flex items-center text-[14px] cursor-pointer">
-						Learn More About Our Services
-						<svg className="ml-[10px]" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M1 9L9 1" stroke="#a53856" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-							<path d="M1 1H9V9" stroke="#a53856" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						</svg>
+				<div className="max-w-[1440px] mx-auto">
+					<div className="sm:pl-[40px] pl-[20px] mt-[130px] mb-[275px] text-left lg:text-[64px] sm:text-[48px] text-[25px] font-['Lexend_Deca'] font-light lg:leading-[80px] sm:leading-[60px] leading-[40px] max-w-[945px]">
+						Ready to stop chasing trends and <span className="gradientbackground">start creating</span> something truly remarkable?
 					</div>
 				</div>
-				<div classNam="relative">
+				<div className="max-w-[1440px] mx-auto">
+					<div className="sm:pl-[40px] pl-[20px] mt-[275px] flex sm:flex-row flex-col gap-[30px] items-center">
+						<div className="cursor-pointer font-normal text-[16px] font-['Lexend_Deca'] text-white bg-[#000000] rounded-[28px] px-[24px] py-[16px] w-fit">Get a Free Consultation</div>
+						<div className="gradientbackground flex items-center text-[14px] cursor-pointer">
+							Learn More About Our Services
+							<svg className="ml-[10px]" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 9L9 1" stroke="#a53856" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M1 1H9V9" stroke="#a53856" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</div>
+					</div>
+				</div>
+				<div className="">
 					<div className="footer absolute w-[100%] h-[25%] mb-[-10px] z-[-1]">
 					</div>
-					<div className="border-t-[1px] border-t-solid border-t-[#b9b9b9] sm:px-[40px] px-[20px] mt-[100px] pt-[60px] pb-[150px] flex lg:flex-row flex-col justify-between items-start gap-[40px] bg-transperent">
+					<div className="max-w-[1440px] mx-auto max-[1440px]:border-t-[1px] border-t-solid border-t-[#b9b9b9] sm:px-[40px] px-[20px] mt-[100px] pt-[60px] pb-[150px] flex lg:flex-row flex-col justify-between items-start gap-[40px] bg-transperent">
 						<div className="flex w-fit items-center cursor-pointer max-lg:mx-auto">
 							<svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path stroke-width="1" d="M20.1 10C20.1 6.19952 18.1185 2.8671 15.1467 1.02373C16.1028 0.684404 17.13 0.499999 18.2 0.499999C23.3268 0.499999 27.5 4.74372 27.5 10C27.5 15.2563 23.3268 19.5 18.2 19.5C17.13 19.5 16.1028 19.3156 15.1467 18.9763C18.1185 17.1329 20.1 13.8005 20.1 10ZM7.9 10C7.9 13.8005 9.88147 17.1329 12.8534 18.9763C11.8973 19.3156 10.87 19.5 9.8 19.5C4.67323 19.5 0.5 15.2563 0.5 10C0.499999 4.74372 4.67323 0.5 9.8 0.5C10.87 0.5 11.8972 0.684404 12.8533 1.02373C9.88147 2.8671 7.9 6.19952 7.9 10Z" stroke="#0E071E"/>
